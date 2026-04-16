@@ -88,8 +88,8 @@ app.get("/:nome",function(req,res){
 
 
  });
-
-app.listen(8081,function(){
+const PORT = process.env.PORT || 8081;
+app.listen(PORT,"0.0.0.0",function(){
     console.log("Servidor está rodando..")
 
 });

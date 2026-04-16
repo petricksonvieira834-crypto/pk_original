@@ -1,5 +1,21 @@
-{
+{  
+"nome": "produtos-api",
+"version": "1.0.0",
+"main": "app.js",
+"type": "comomonjs",
+ "scripts": {
+"start": "node app.js"
+
+
+ },
+ "engines": {
+"node": ">=20"
+
+ },
+
   "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mysql2": "^3.20.0",
     "sequelize": "^6.37.8"
